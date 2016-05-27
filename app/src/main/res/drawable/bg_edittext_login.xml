@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
 	<item android:state_pressed="true">
 		<shape android:shape="rectangle">
 			<stroke android:width="1dip" android:color="#FFFFFF"/>
@@ -11,9 +12,10 @@
 			<padding android:left="7dip" android:right="7dip" android:top="7dip" android:bottom="7dip" />
 		</shape>
 	</item>
+
 	<item android:state_focused="true">
 		<shape android:shape="rectangle">
-			<stroke android:width="1dip" android:color="#FFFFFF"/>
+			<stroke android:width="1dip" android:color="#FF8000"/>
 			<solid android:color="#E8F2FC" />
 			<corners android:bottomRightRadius="2dip"
 				android:bottomLeftRadius="2dip"
@@ -22,6 +24,7 @@
 			<padding android:left="7dip" android:right="7dip" android:top="7dip" android:bottom="7dip" />
 		</shape>
 	</item>
+
 	<item android:state_enabled="false">
 		<shape android:shape="rectangle">
 			<stroke android:width="1dip" android:color="#FFFFFF"/>
@@ -33,6 +36,7 @@
 			<padding android:left="7dip" android:right="7dip" android:top="7dip" android:bottom="7dip" />
 		</shape>
 	</item>
+
 	<item android:state_enabled="true">
 		<shape android:shape="rectangle">
 			<stroke android:width="1dip" android:color="#FFFFFF"/>
@@ -44,4 +48,5 @@
 			<padding android:left="7dip" android:right="7dip" android:top="7dip" android:bottom="7dip" />
 		</shape>
 	</item>
+
 </selector>
